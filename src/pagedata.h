@@ -1,4 +1,4 @@
-// PageData.h
+// pagedata.h
 
 #ifndef PAGEDATA_H
 #define PAGEDATA_H

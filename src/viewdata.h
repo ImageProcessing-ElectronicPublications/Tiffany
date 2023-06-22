@@ -1,4 +1,4 @@
-// ViewData.h
+// viewdata.h
 
 #ifndef ViewDATA_H
 #define ViewDATA_H

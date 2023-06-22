@@ -1,8 +1,8 @@
 //
 // Global configuration
 //
-#include "Config.h"
 #include <QSettings>
+#include "config.h"
 
 namespace Config
 {

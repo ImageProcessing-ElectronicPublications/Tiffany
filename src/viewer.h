@@ -1,7 +1,6 @@
 #ifndef VIEWER_H
 #define VIEWER_H
 
-#include "PageData.h"
 #include <QWidget>
 #include <QClipboard>
 #include <QColor>
@@ -14,6 +13,7 @@
 #include <opencv2/core/types.hpp>
 #include <tesseract/baseapi.h>
 #include <leptonica/allheaders.h>
+#include "pagedata.h"
 
 class Viewer : public QWidget
 {

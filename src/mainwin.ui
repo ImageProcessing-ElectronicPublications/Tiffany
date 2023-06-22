@@ -572,12 +572,12 @@
   <customwidget>
    <class>Bookmarks</class>
    <extends>QListWidget</extends>
-   <header>Bookmarks.h</header>
+   <header>src/bookmarks.h</header>
   </customwidget>
   <customwidget>
    <class>Viewer</class>
    <extends>QWidget</extends>
-   <header>Viewer.h</header>
+   <header>src/viewer.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

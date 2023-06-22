@@ -1,4 +1,4 @@
-#include "ColorQToolButton.h"
+#include "colorqtoolbutton.h"
 #include <QPixmap>
 
 ColorQToolButton::ColorQToolButton(QWidget * parent) : QToolButton(parent)

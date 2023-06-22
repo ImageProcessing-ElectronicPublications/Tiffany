@@ -1,11 +1,11 @@
-#include "Config.h"
-#include "mainwindow.h"
-#include "ui_mainWin.h"
 #include <QCloseEvent>
 #include <QColorDialog>
 #include <QDebug>
 #include <QFontDialog>
 #include <QMessageBox>
+#include "config.h"
+#include "mainwindow.h"
+#include "ui_mainwin.h"
 
 //
 // Constructor

@@ -1,4 +1,4 @@
-// QImage2OCV.h
+// qimage2ocv.h
 
 #ifndef QIMAGE2OCV_H
 #define QIMAGE2OCV_H

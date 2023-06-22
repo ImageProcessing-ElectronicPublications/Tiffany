@@ -1,4 +1,4 @@
-#include "SpinWidget.h"
+#include "spinwidget.h"
 
 SpinWidget::SpinWidget(int min, int max, int val, int step, QString text, QWidget * parent) : QWidget(parent)
 {

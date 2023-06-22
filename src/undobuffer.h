@@ -1,10 +1,10 @@
-// UndoBuffer.h
+// undobuffer.h
 
 #ifndef UNDOBUFFER_H
 #define UNDOBUFFER_H
-#include "PageData.h"
 #include <QMetaType>
 #include <QDebug>
+#include "pagedata.h"
 
 #define MAX_UNDO 5
 

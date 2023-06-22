@@ -4,7 +4,7 @@
 #include <QWidget>
 #include <QListWidget>
 #include <QPainterPath>
-#include "PageData.h"
+#include "pagedata.h"
 
 class Bookmarks : public QListWidget
 {

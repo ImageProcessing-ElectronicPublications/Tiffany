@@ -1,4 +1,4 @@
-#include "QImage2OCV.h"
+#include "qimage2ocv.h"
 
 //
 // Create a openCV matrix from a qimage

@@ -1,8 +1,3 @@
-#include "Config.h"
-#include "Viewer.h"
-#include "UndoBuffer.h"
-#include "ViewData.h"
-#include "QImage2OCV.h"
 #include <QApplication>
 #include <QDebug>
 #include <QInputDialog>
@@ -12,6 +7,11 @@
 #include <QPainter>
 #include <QScrollBar>
 #include <QtConcurrent/QtConcurrent>
+#include "config.h"
+#include "viewer.h"
+#include "undobuffer.h"
+#include "viewdata.h"
+#include "qimage2ocv.h"
 
 Viewer::Viewer(QWidget * parent) : QWidget(parent)
 {

@@ -1,4 +1,4 @@
-#include "DoubleSpinWidget.h"
+#include "doublespinwidget.h"
 
 DoubleSpinWidget::DoubleSpinWidget(float min, float max, float val, float step, QString text, QWidget * parent) : QWidget(parent)
 {

@@ -1,7 +1,3 @@
-#include "Bookmarks.h"
-#include "UndoBuffer.h"
-#include "ViewData.h"
-#include "QImage2OCV.h"
 #include <QColor>
 #include <QDebug>
 #include <QFileDialog>
@@ -10,6 +6,10 @@
 #include <QMessageBox>
 #include <QPainter>
 #include <QTransform>
+#include "bookmarks.h"
+#include "undobuffer.h"
+#include "viewdata.h"
+#include "qimage2ocv.h"
 
 Bookmarks::Bookmarks(QWidget * parent) : QListWidget(parent)
 {

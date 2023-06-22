@@ -3,7 +3,7 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET = Tiffany
+TARGET = tiffany
 
 # The following define makes your compiler warn you if you use any
 # feature of Qt which has been marked as deprecated (the exact warnings
@@ -29,12 +29,29 @@ UI_DIR = ./.build
 QT += widgets gui concurrent
 
 # Input
-HEADERS += mainwindow.h Bookmarks.h Viewer.h QImage2OCV.h Config.h 
-HEADERS += PageData.h UndoBuffer.h ViewData.h 
-HEADERS += Widgets/PopupQToolButton.h Widgets/ColorQToolButton.h Widgets/SpinWidget.h Widgets/DoubleSpinWidget.h
-FORMS += mainWin.ui
-SOURCES += main.cpp mainwindow.cpp Bookmarks.cpp Viewer.cpp QImage2OCV.cpp Config.cpp
-SOURCES += Widgets/PopupQToolButton.cpp Widgets/ColorQToolButton.cpp Widgets/SpinWidget.cpp Widgets/DoubleSpinWidget.cpp
+HEADERS += src/mainwindow.h
+HEADERS += src/bookmarks.h
+HEADERS += src/viewer.h
+HEADERS += src/qimage2ocv.h
+HEADERS += src/config.h 
+HEADERS += src/pagedata.h
+HEADERS += src/undobuffer.h
+HEADERS += src/viewdata.h 
+HEADERS += src/widgets/popupqtoolbutton.h
+HEADERS += src/widgets/colorqtoolbutton.h
+HEADERS += src/widgets/spinwidget.h
+HEADERS += src/widgets/doublespinwidget.h
+FORMS += src/mainWin.ui
+SOURCES += src/main.cpp
+SOURCES += src/mainwindow.cpp
+SOURCES += src/bookmarks.cpp
+SOURCES += src/viewer.cpp
+SOURCES += src/qimage2ocv.cpp
+SOURCES += src/config.cpp
+SOURCES += src/widgets/popupqtoolbutton.cpp
+SOURCES += src/widgets/colorqtoolbutton.cpp
+SOURCES += src/widgets/spinwidget.cpp
+SOURCES += src/widgets/doublespinwidget.cpp
 RESOURCES += rsrc.qrc
 
 # OpenCV

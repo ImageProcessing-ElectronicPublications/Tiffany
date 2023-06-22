@@ -1,4 +1,4 @@
-#include "PopupQToolButton.h"
+#include "popupqtoolbutton.h"
 #include <QAction>
 
 PopupQToolButton::PopupQToolButton(QWidget * parent) : QToolButton(parent)

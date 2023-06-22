@@ -6,10 +6,10 @@
 #include <QLabel>
 #include <QProgressBar>
 #include <QVBoxLayout>
-#include "Widgets/PopupQToolButton.h"
-#include "Widgets/ColorQToolButton.h"
-#include "Widgets/SpinWidget.h"
-#include "Widgets/DoubleSpinWidget.h"
+#include "widgets/popupqtoolbutton.h"
+#include "widgets/colorqtoolbutton.h"
+#include "widgets/spinwidget.h"
+#include "widgets/doublespinwidget.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
